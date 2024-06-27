@@ -1,4 +1,4 @@
-import { BuyForm } from "./_components/add-form.tsx";
+import { BuyForm } from "./_components/add-form";
 
 interface AddVirtualAssetsProps {
     params: {
