@@ -1,4 +1,4 @@
-import { BuyForm } from "./_components/add-form";
+// import { BuyForm } from "./_components/add-form";
 
 interface AddVirtualAssetsProps {
     params: {
@@ -11,7 +11,7 @@ const AddAssets = ({
 }:AddVirtualAssetsProps) => {
     return (
         <div className="flex justify-center">
-            <BuyForm username={params.username}></BuyForm>
+            {/* <BuyForm username={params.username}></BuyForm> */}
         </div>
     )
 }
